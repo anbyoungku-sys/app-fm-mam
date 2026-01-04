@@ -5,7 +5,7 @@ import io
 
 # --- 1. 앱 설정 ---
 st.set_page_config(
-    page_title="와이프를 위한 영어 선생님",
+    page_title="영어늘리기",
     page_icon="💖",
     layout="wide" # 화면을 넓게 씁니다
 )
@@ -26,7 +26,7 @@ with st.sidebar:
     st.divider()
 
     # 옵션 기능
-    show_translation = st.toggle("한글 해석 보기", value=True)
+    show_translation = st.toggle("한글 해석 보기", value=False)
     enable_tts = st.toggle("🔊 오디오 기능 켜기", value=False)
 
 # --- 3. 메인 화면 ---
